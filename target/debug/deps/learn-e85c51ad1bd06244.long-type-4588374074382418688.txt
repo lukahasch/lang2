@@ -1,0 +1,1 @@
+Diag: std::convert::From<<impl typy::Rule<Expression, Type> as typy::Rule<Expression, Type>>::Error>

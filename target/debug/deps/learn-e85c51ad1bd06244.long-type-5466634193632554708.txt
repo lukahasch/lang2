@@ -1,0 +1,3 @@
+Diag: skim::ParseError<parser::Token, (), std::ops::Range<usize>, parser::Delim, &mut typy::Typy<Type>>
+for<'a, 'b> fn(&'a mut skim::Context<logos::SpannedIter<'b, parser::Token>, parser::Token, (), std::ops::Range<usize>, parser::Delim, &'b mut typy::Typy<Type>>) -> skim::Parsed<Expression, Diag> {parser::expr}
+skim::Parser<logos::SpannedIter<'_, parser::Token>, parser::Token, Expression, Diag, (), std::ops::Range<usize>, parser::Delim, &mut typy::Typy<Type>>

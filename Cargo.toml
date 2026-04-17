@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "learn",
+    "skim",
+    "typy",
+]
+resolver = "3"

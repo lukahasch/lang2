@@ -1,0 +1,2 @@
+&{closure@Typy<Type>::apply<Expression, {closure@typy/src/lib.rs:118:15: 118:53}>::{closure#0}}
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&{closure@Typy<Type>::apply<Expression, {closure@typy/src/lib.rs:118:15: 118:53}>::{closure#0}}

@@ -1,0 +1,15 @@
+[package]
+name = "learn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+skim = { path = "../skim" }
+logos = { version = "0.16.1", features = [ "state_machine_codegen"] }
+miette = { version = "7.6.0", features = ["fancy"] }
+thiserror = "2.0.18"
+derive_more = { version = "2.1.1", features = ["from", "display", "debug", "not"] }
+log = "0.4.29"
+fern = { version = "0.7.1", features = ["chrono", "colored"] }
+humantime = "2.3.0"
+typy = { path = "../typy" }

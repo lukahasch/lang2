@@ -1,0 +1,1 @@
+impl skim::Parser<logos::SpannedIter<'_, parser::Token>, parser::Token, Expression, _, (), std::ops::Range<usize>, parser::Delim, typy::Typy<Type>>

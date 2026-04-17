@@ -1,0 +1,12 @@
+/Users/lukahasch/Desktop/lang/target/debug/deps/fern-c20e9c5f20a4fc58.d: /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/lib.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/builders.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/errors.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/log_impl.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/colors.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/meta.rs
+
+/Users/lukahasch/Desktop/lang/target/debug/deps/libfern-c20e9c5f20a4fc58.rlib: /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/lib.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/builders.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/errors.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/log_impl.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/colors.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/meta.rs
+
+/Users/lukahasch/Desktop/lang/target/debug/deps/libfern-c20e9c5f20a4fc58.rmeta: /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/lib.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/builders.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/errors.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/log_impl.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/colors.rs /Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/meta.rs
+
+/Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/lib.rs:
+/Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/builders.rs:
+/Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/errors.rs:
+/Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/log_impl.rs:
+/Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/colors.rs:
+/Users/lukahasch/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fern-0.7.1/src/meta.rs:
