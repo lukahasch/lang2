@@ -1,1 +1,0 @@
-for<'a, 'b> fn(&'a mut skim::Context<logos::SpannedIter<'b, parser::Token>, parser::Token, (), std::ops::Range<usize>, parser::Delim, &'b mut typy::Typy<Type>>) -> skim::Parsed<Expression, Diag> {parser::function}

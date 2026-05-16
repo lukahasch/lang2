@@ -266,4 +266,6 @@ impl<T: Type> Default for Typy<T> {
  *  }
  * }
  *
+ * rule!(|ctx| Spanned(Expr::Add(a, b), span) => ctx.at(span).eq(a, b))
+ * rule!(|ctx| Spanned(Expr::Let { r#pattern, r#type, value }, span) => {ctx.at(span).teq(value, r#type)?; r#pattern.type_chk(r#type, ctx) })
  */

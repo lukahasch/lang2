@@ -1,6 +1,5 @@
 [workspace]
-members = [
-    "learn",
+members = ["ml-lua",
     "skim",
     "typy",
 ]

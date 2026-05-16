@@ -1,12 +1,100 @@
-   0.057195750s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint: stale: changed "/Users/lukahasch/Desktop/lang/learn/src/main.rs"
-   0.057207041s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint:           (vs) "/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/learn-f5654a59698bad0e/dep-bin-learn"
-   0.057209416s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1776012908, nanos: 371833510 } < FileTime { seconds: 1776012915, nanos: 621839900 }
-   0.057294291s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint: fingerprint dirty for learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn)/Check { test: false }/TargetInner { name: "learn", doc: true, ..: with_path("/Users/lukahasch/Desktop/lang/learn/src/main.rs", Edition2024) }
-   0.057304041s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/learn-f5654a59698bad0e/dep-bin-learn", reference_mtime: FileTime { seconds: 1776012908, nanos: 371833510 }, stale: "/Users/lukahasch/Desktop/lang/learn/src/main.rs", stale_mtime: FileTime { seconds: 1776012915, nanos: 621839900 } }))
-   0.060451875s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint: stale: changed "/Users/lukahasch/Desktop/lang/learn/src/main.rs"
-   0.060455291s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint:           (vs) "/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/learn-605ce577261592ce/dep-test-bin-learn"
-   0.060457041s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1776012908, nanos: 371806469 } < FileTime { seconds: 1776012915, nanos: 621839900 }
-   0.060501833s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint: fingerprint dirty for learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn)/Check { test: true }/TargetInner { name: "learn", doc: true, ..: with_path("/Users/lukahasch/Desktop/lang/learn/src/main.rs", Edition2024) }
-   0.060505625s  INFO prepare_target{force=false package_id=learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn) target="learn"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/learn-605ce577261592ce/dep-test-bin-learn", reference_mtime: FileTime { seconds: 1776012908, nanos: 371806469 }, stale: "/Users/lukahasch/Desktop/lang/learn/src/main.rs", stale_mtime: FileTime { seconds: 1776012915, nanos: 621839900 } }))
-    Checking learn v0.1.0 (/Users/lukahasch/Desktop/lang/learn)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
+   0.021632541s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml_lua"}: cargo::core::compiler::fingerprint: fingerprint error for ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ml_lua", ["lib"], "/Users/lukahasch/Desktop/lang/ml-lua/src/lib.rs", Edition2024) }
+   0.021650041s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml_lua"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/ml-lua-5567cb60622727be/lib-ml_lua`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026366250s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml_lua"}: cargo::core::compiler::fingerprint: fingerprint error for ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("ml_lua", ["lib"], "/Users/lukahasch/Desktop/lang/ml-lua/src/lib.rs", Edition2024) }
+   0.026375333s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml_lua"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/ml-lua-11d2ca251af4fd05/test-lib-ml_lua`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026688666s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml-lua"}: cargo::core::compiler::fingerprint: fingerprint error for ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua)/Check { test: false }/TargetInner { name: "ml-lua", doc: true, ..: with_path("/Users/lukahasch/Desktop/lang/ml-lua/src/main.rs", Edition2024) }
+   0.026693083s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml-lua"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/ml-lua-a96e0515a77d9d32/bin-ml-lua`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026960875s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml-lua"}: cargo::core::compiler::fingerprint: fingerprint error for ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua)/Check { test: true }/TargetInner { name: "ml-lua", doc: true, ..: with_path("/Users/lukahasch/Desktop/lang/ml-lua/src/main.rs", Edition2024) }
+   0.026964958s  INFO prepare_target{force=false package_id=ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua) target="ml-lua"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/lukahasch/Desktop/lang/target/debug/.fingerprint/ml-lua-05008604bf6a256d/test-bin-ml-lua`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking ml-lua v0.1.0 (/Users/lukahasch/Desktop/lang/ml-lua)
+error: could not compile `ml-lua` (lib) due to 27 previous errors; 4 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `ml-lua` (lib test) due to 27 previous errors; 4 warnings emitted

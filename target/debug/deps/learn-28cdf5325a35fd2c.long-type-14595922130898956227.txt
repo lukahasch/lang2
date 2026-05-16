@@ -1,1 +1,0 @@
-for<'a> fn(&'a mut skim::Context<{type error}, parser::Token, (), std::ops::Range<usize>, parser::Delim, typy::Typy<Type>>) -> {type error} {parser::atom}

@@ -1,1 +1,0 @@
-Diag: From<<impl Rule<Expression, Type> as Rule<Expression, Type>>::Error>
